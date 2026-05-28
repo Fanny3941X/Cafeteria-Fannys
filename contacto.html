@@ -1,0 +1,133 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto | CoffeeBloom</title>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body class="page-contact">
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top py-3">
+    <div class="container">
+      <a class="navbar-brand text-uppercase" href="index.html">CoffeeBloom</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Alternar navegación">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+          <li class="nav-item"><a class="nav-link" href="index.html" data-i18n="Inicio">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="menu.html" data-i18n="Menú">Menú</a></li>
+          <li class="nav-item"><a class="nav-link" href="nosotros.html" data-i18n="Nosotros">Nosotros</a></li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="contacto.html" data-i18n="Contacto">Contacto</a></li>
+          <li class="nav-item ms-lg-3 mt-3 mt-lg-0">
+            <div id="google_translate_element" class="google-translate"></div>
+          </li>
+          <li class="nav-item ms-lg-3 mt-3 mt-lg-0">
+            <div class="d-flex align-items-center mode-toggle" id="themeToggle" aria-label="Alternar modo claro y oscuro">
+              <span class="me-2 small" data-i18n="Modo">Modo</span>
+              <span class="theme-pill"></span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero-section" id="eslogan">
+    <div class="container">
+      <div class="row align-items-center gy-5">
+        <div class="col-lg-6">
+          <div class="hero-card contact-hero-card reveal">
+            <span class="badge rounded-pill badge-soft" data-i18n="Contáctanos">Contáctanos</span>
+            <h1 class="display-5 fw-bold mt-3">Hablemos para agendar tu momento de café.</h1>
+            <p class="lead text-muted mb-4">Déjanos un mensaje o reserva tu visita para probar nuestras bebidas y postres en un ambiente cálido.</p>
+            <div class="d-flex gap-3 flex-wrap">
+              <a href="menu.html" class="btn btn-primary btn-lg" data-i18n="Ver menú">Explora el menú</a>
+              <a href="nosotros.html" class="btn btn-outline-dark btn-lg">Saber más</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <img src="https://images.unsplash.com/photo-1498654896293-37aacf113fd9?auto=format&fit=crop&w=800&q=80" class="img-fluid rounded-4 shadow-sm contact-photo reveal" alt="Contacto cafetería CoffeeBloom">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-5">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-6">
+          <div class="contact-card form-card reveal">
+            <h2 class="section-heading" data-i18n="Escríbenos">Escríbenos</h2>
+            <p class="text-muted mb-4">Estamos listos para atender tu reserva, dudas o pedidos especiales.</p>
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="name" placeholder="Tu nombre">
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="correo@ejemplo.com">
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="message" rows="5" placeholder="Cuéntanos cómo podemos ayudarte"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-lg" data-i18n="Enviar mensaje">Enviar mensaje</button>
+            </form>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="contact-card info-card reveal">
+            <h2 class="section-heading" data-i18n="Información">Información</h2>
+            <p class="text-muted">Visítanos y descubre un lugar donde los tonos café y beige se combinan con el aroma del café.</p>
+            <ul class="list-unstyled">
+              <li class="mb-3"><strong>Dirección:</strong> Calle Suave 123, Col. Crema</li>
+              <li class="mb-3"><strong>Horario:</strong> Lun - Dom 8:00 - 20:00</li>
+              <li class="mb-3"><strong>Email:</strong> fabimora544@gmail.com</li>
+              <li><strong>Teléfono:</strong> +52 55 1234 5678</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-md-6">
+          <h5>CoffeeBloom</h5>
+          <p class="text-muted">Te esperamos con un ambiente acogedor, ideal para tus reuniones y descansos.</p>
+        </div>
+        <div class="col-md-3">
+          <h6>Enlaces</h6>
+          <ul class="list-unstyled">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="menu.html">Menú</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h6>Contacto</h6>
+          <p class="mb-1"><small>Email: fabimora544@gmail.com</small></p>
+          <p class="mb-0"><small>Tel: +52 55 1234 5678</small></p>
+        </div>
+      </div>
+      <div class="text-center pt-4 mt-4 border-top section-divider">
+        <small>© 2026 Fannys. Todos los derechos reservados.</small>
+      </div>
+    </div>
+  </footer>
+
+  <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="app.js"></script>
+  <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+</html>
+
+
+
